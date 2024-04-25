@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Phone';
+  goToNewPage() {
+    const newWindow = window.open('/get', '_blank', );
+  }
+
+  showNewProduct = false;
+  getNewProduct = false;
+  updateNewProduct = false;
+  deleteProduct=false;
+  deletedSuccessfully=false;
 }

@@ -1,0 +1,24 @@
+<h3>Non Duplicate Phone List</h3>
+<table>
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Id</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let phone of phones; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{phone.id}}</td>
+            <td>{{phone.brand}}</td>
+            <td>{{phone.price}}</td>
+            <td>{{phone.color}}</td>
+            <td>{{phone.rating}}</td>
+        </tr>
+    </tbody>
+</table>
+

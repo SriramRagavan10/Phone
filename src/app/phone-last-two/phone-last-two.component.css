@@ -1,0 +1,25 @@
+h3, table {
+    text-align: center;
+}
+table {
+    width: 78%;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+th, td {
+    border: 2px solid;
+    padding: 8px;
+}
+td {
+    background-color: gainsboro;
+}   
+td:hover {
+    background-color: lightgreen;
+}
+tr:hover {
+    background-color: rgb(228, 181, 120);
+}
+h3:hover {
+    background-color: beige;
+}

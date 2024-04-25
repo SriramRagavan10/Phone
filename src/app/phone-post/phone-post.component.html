@@ -1,0 +1,16 @@
+<h1>New Phone Product</h1>
+<form>
+    <label>Brand : </label>
+    <input type="text" name="brand" [(ngModel)]="phones.brand">
+    <br><br>
+    <label>Price : </label>
+    <input type="number" name="price" [(ngModel)]="phones.price">
+    <br><br>
+    <label>Color : </label>
+    <input type="text" name="color" [(ngModel)]="phones.color">
+    <br><br>
+    <label>Rating : </label>
+    <input type="number" name="rating" [(ngModel)]="phones.rating">
+    <br><br>
+    <button (click)="savePhone()"> Submit </button>
+</form>

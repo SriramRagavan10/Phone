@@ -1,0 +1,16 @@
+<div [ngStyle]="{ 'color': 'blue'}"><h2>New Phone Product By Rating</h2></div>
+<form>
+    <label>Brand : </label>
+    <input type="text" name="brand" [(ngModel)]="phones.brand">
+    <br><br>
+    <label>Price : </label>
+    <input type="number" name="price" [(ngModel)]="phones.price">
+    <br><br>
+    <label>Color : </label>
+    <input type="text" name="color" [(ngModel)]="phones.color">
+    <br><br>
+    <label>Rating : </label>
+    <input type="number" name="rating" [(ngModel)]="phones.rating">
+    <br><br>
+    <button (click)="phoneRating()"> Submit </button>
+</form>

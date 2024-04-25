@@ -1,0 +1,22 @@
+h3, table {
+    text-align: center;
+}
+table {
+    width: 78%;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+th, td {
+    border: 2px solid;
+    padding: 8px;
+}
+td {
+    background-color : cyan;
+}   
+tr:hover {
+    background-color: antiquewhite;
+}
+h2:hover {
+    background-color: beige;
+}

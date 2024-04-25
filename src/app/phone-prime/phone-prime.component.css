@@ -1,0 +1,22 @@
+h3, table {
+    text-align: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+th, td {
+    border: 2px solid;
+    padding: 5px;
+}
+td {
+    background-color: rgb(230, 150, 194);
+}   
+tr:hover {
+    background-color: rgb(240, 209, 169);
+}
+h2:hover {
+    background-color: beige;
+}

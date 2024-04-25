@@ -1,0 +1,50 @@
+button {
+    margin: auto;
+    display: block;
+    width: 670px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  a {
+    padding: 5px 5px;
+    background-color: #8edfc5;
+    color: rgb(58, 53, 53);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 270px;
+  }
+
+  a,ul {
+    list-style-type: disc;
+  }
+  
+  

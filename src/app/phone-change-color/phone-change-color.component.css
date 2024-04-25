@@ -1,0 +1,31 @@
+h3, form {
+    text-align: center;
+}
+label {
+    text-align: right;
+    display: inline-block;
+    width: 70px;
+    margin-right: 5px;
+}
+input    {
+    border: 1px solid #f0a7a7;
+    /* Gray border */
+    border-radius: 4px;
+    /* Optional: Add rounded corners */
+    padding: 8px;
+    /* Add some padding inside the text box */
+    width: 200px;
+    /* Set the width of the text box */
+}
+
+button {
+    width: 10%;
+    border-radius: 10px;
+    background-color: darkgrey;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px;
+}
+button:hover {
+    background-color: rgb(165, 217, 200);
+}
